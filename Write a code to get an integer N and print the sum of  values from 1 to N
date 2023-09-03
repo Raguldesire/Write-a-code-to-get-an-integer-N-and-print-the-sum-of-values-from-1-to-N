@@ -1,0 +1,7 @@
+n=int(input())                        #getting input as integer
+l=[]                                  #creates an empty list to append i
+for i in range(1,n+1):
+  l.append(i)
+  i=i+1
+M=sum(l)                              #sum digits of l
+print(M)
